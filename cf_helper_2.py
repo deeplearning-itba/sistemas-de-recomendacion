@@ -75,11 +75,11 @@ def getBaselineEstimates(R, mu, lambda1 = 0, lambda2 = 0, items_first = True, no
         num = len(item_rates[0])
         if (num>0):
             bii[item] = (item_rates.sum() - mu*num)/(num+lambda1)
-            
     for user in range(m):
         where = np.where(R[user,:]!=not_rated)
         user_rates = R[user,where]
         num = len(where[0])
+        
         if (num>0):
             bui[user] = ((user_rates.T-bii[where]).sum() - num*mu)/(num+lambda2)
             
