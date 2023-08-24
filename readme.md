@@ -7,6 +7,7 @@ pip install -r requirements.txt
 ```
 
 # Bajada y descompresión de la data
+https://grouplens.org/datasets/movielens/100k/
 Si el archivo no esta en el repo bajarlo de: http://files.grouplens.org/datasets/movielens/ml-100k.zip
  ```bash
  wget http://files.grouplens.org/datasets/movielens/ml-100k.zip
