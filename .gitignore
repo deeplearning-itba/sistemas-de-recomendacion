@@ -3,3 +3,9 @@ ml-100k/
 .DS_Store
 .ipynb_checkpoints/
 __pycache__/
+vector_db
+mlruns
+movie2Idx.npy
+movie_embeddings_matrix.npy
+user_embeddings_matrix.np
+vectors
